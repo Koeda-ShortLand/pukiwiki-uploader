@@ -21,7 +21,7 @@ def upload_files(page_name, files):
     upload_url = f"{wiki_endpoint}"
 
     for file_path in files:
-        total_size = os.path.getsize(file_path)  # ファイルサイズ取得
+        total_size = os.path.getsize(file_path)
         current_size = 0
 
         def callback(monitor):
