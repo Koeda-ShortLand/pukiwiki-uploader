@@ -1,0 +1,2 @@
+# pukiwiki-uploader
+pukiwikiのアップロードをPythonでできるようにするためのスクリプトです。
